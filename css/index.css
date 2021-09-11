@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+header{
+    background-image: url("/assets/backgrounds/bg2.jpg");
+    background-size: cover;
+    color: white;
+    height: 780px;
+}
