@@ -21,3 +21,10 @@ header{
 .mouse-click{
     padding-top: 150px;
 }
+
+.about-us{
+    margin: 50px 160px;
+}
+.about-us p{
+    padding-top: 2px;
+}
