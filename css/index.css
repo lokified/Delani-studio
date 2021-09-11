@@ -7,3 +7,17 @@ header{
     color: white;
     height: 780px;
 }
+.header-content{
+    padding-top: 225px;
+}
+.header-content h1{
+    padding-top: 30px;
+    margin-top: 10px;
+    font-size: 45px;
+}
+.header-content p{
+    font-size: 14px;
+}
+.mouse-click{
+    padding-top: 150px;
+}
