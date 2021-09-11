@@ -89,3 +89,6 @@ header{
 .socials img{
     padding: 0 10px;
 }
+.footer p{
+    margin-top: -15px;
+}
