@@ -82,3 +82,10 @@ header{
     color: white;
     padding: 7px;
 }
+
+.socials{
+    padding: 40px;
+}
+.socials img{
+    padding: 0 10px;
+}
