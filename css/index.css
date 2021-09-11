@@ -1,3 +1,4 @@
+
 body{
     text-align: center;
 }
@@ -95,37 +96,22 @@ header{
     margin-top: -15px;
 }
 
-@media only screen and (max-width:400px) {
-    header{
-        background-size: contain;
-        background-repeat: no-repeat;
-        color: white;
-        height: 300px;
-    }
+@media only screen and (max-width:600px) {
+   
     .header-content{
-        padding-top: 10px;
-    }
-    .header-content img{
-        height: 30px;
+        padding-top: 150px;
     }
     .header-content h1{
-        padding-top: 10px;
-        font-size: 25px;
-    }
-    .header-content p{
-        font-size: 8px;
-        margin: 0 30%;
+        padding-top: 30px;
+       
     }
     .mouse-click{
-        padding-top: 40px;
-    }
-    .mouse-click img{
-        height: 20px;
+        padding-top: 250px;
     }
 
 
     .about-us{
-        margin: -50px 10px 0;
+        margin: 20px 10px ;
         font-size: 15px;
     }
     .about-us h3{
@@ -148,8 +134,6 @@ header{
     padding-left: 0;
     }
     .contacts{
-        background-size: contain;
-        background-repeat: no-repeat;
         padding: 10px 0 5px 0;
     }
     .contacts h3{
