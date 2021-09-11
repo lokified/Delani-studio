@@ -59,3 +59,26 @@ header{
     width: 250px;
     padding: 20px 5px;
 }
+
+.contacts{
+    background-image: url("/assets/backgrounds/background1.jpg");
+    background-size: cover;
+    padding: 40px 0 90px 0;
+    margin-top: 50px;
+    color: white;
+}
+.form-control{
+    display: inline;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 20px 10px;
+    width: 360px;
+}
+#message{
+    width: 700px;
+    margin-left: 50px;
+}
+#message::placeholder,#name::placeholder,#email::placeholder{
+    color: white;
+    padding: 7px;
+}
