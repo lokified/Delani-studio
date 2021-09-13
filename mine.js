@@ -90,4 +90,10 @@ $(document).ready(function () {
             $('#port-8').show();
             $(".description-8").hide();
         });
+    
+    
+    $('.contacts form').submit(function(){
+         let yourName =$('#name').val();
+         alert( yourName+ " we have received your message. Thank you for reaching out to us. ");
+    })
 });
