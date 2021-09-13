@@ -283,6 +283,20 @@ header{
     .work-logos{
         display: block;
     }
+    .work-profile1{
+        margin: 0 15%;
+        width: 70%;
+    }
+    .work-profile2{
+        margin:0 15%;
+        width: 70%;
+
+    }
+    .work-profile3{
+        margin: 0 15%;
+        width: 70%;
+
+    }
     .portfolio{
         margin: 0 50px;
     }
