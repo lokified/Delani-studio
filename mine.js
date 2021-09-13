@@ -91,7 +91,7 @@ $(document).ready(function () {
             $(".description-8").hide();
         });
     
-    
+    // shows alert on submit
     $('.contacts form').submit(function(){
          let yourName =$('#name').val();
          alert( yourName+ " we have received your message. Thank you for reaching out to us. ");
