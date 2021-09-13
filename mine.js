@@ -1,0 +1,26 @@
+$(document).ready(function(){
+    $('.work-logo1').click(function(){
+        $('.work-profile1').show();
+        $('.work-logo1').toggle();
+    });
+    $('.work-profile1').click(function(){
+        $('.work-logo1').show();
+        $('.work-profile1').toggle();
+    });
+    $('.work-logo2').click(function(){
+        $('.work-profile2').show();
+        $('.work-logo2').toggle();
+    });
+    $('.work-profile2').click(function(){
+        $('.work-logo2').show();
+        $('.work-profile2').toggle();
+    });
+    $('.work-logo3').click(function(){
+        $('.work-profile3').show();
+        $('.work-logo3').toggle();
+    });
+    $('.work-profile3').click(function(){
+        $('.work-logo3').show();
+        $('.work-profile3').toggle();
+    });
+});
