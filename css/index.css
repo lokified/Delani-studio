@@ -73,6 +73,63 @@ header{
     padding: 20px 5px;
 }
 
+.description-1{
+    height: 230px;
+    width: 250px;
+    background-image: url("/assets/work/portfolio4.jpg");
+    background-size: cover;
+    display: none;
+}
+.description-2{
+    height: 230px;
+    width: 250px;
+    background-image: url("/assets/work/portfolio3.jpg");
+    background-size: cover;
+    display: none;
+}
+.description-3{
+    height: 230px;
+    width: 250px;
+    background-image: url("/assets/work/portfolio2.jpg");
+    background-size: cover;
+    display: none;
+}
+.description-4{
+    height: 230px;
+    width: 250px;
+    background-image: url("/assets/work/portfolio1.jpg");
+    background-size: cover;
+    display: none;
+}
+.description-5{
+    height: 230px;
+    width: 250px;
+    background-image: url("/assets/work/portfolio5.jpg");
+    background-size: cover;
+    display: none;
+}
+.description-6{
+    height: 230px;
+    width: 250px;
+    background-image: url("/assets/work/portfolio6.jpg");
+    background-size: cover;
+    display: none;
+}
+.description-7{
+    height: 230px;
+    width: 250px;
+    background-image: url("/assets/work/portfolio7.jpg");
+    background-size: cover;
+    display: none;
+}
+.description-8{
+    height: 230px;
+    width: 250px;
+    background-image: url("/assets/work/portfolio8.jpg");
+    background-size: cover;
+    display: none;
+}
+
 .contacts{
     background-image: url("/assets/backgrounds/background1.jpg");
     background-size: cover;
