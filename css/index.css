@@ -129,6 +129,17 @@ header{
     background-size: cover;
     display: none;
 }
+.des{
+    height: 230px;
+    width: 250px;
+    color: white;
+    background: rgba(243, 235, 235, 0.6);
+}
+.des p{
+    padding-top: 100px ;
+    color: black;
+    font-weight: 500;
+}
 
 .contacts{
     background-image: url("/assets/backgrounds/background1.jpg");
