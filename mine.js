@@ -93,7 +93,7 @@ $(document).ready(function () {
     
     // shows alert on submit
     $('.contacts form').submit(function(){
-         let yourName =$('#name').val();
-         alert( yourName+ " we have received your message. Thank you for reaching out to us. ");
+          let yourName =$('#mce-FNAME').val();
+          alert( yourName+ " we have received your message. Thank you for reaching out to us. ");
     })
 });
