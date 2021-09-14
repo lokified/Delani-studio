@@ -309,6 +309,10 @@ header{
     .portfolio-image img{
         padding: 20px 10px;
     }
+    #fields{
+        display: block;
+        margin: 0 20%;
+    }
     #message{
         width: 500px;
         margin-left: 50px;
