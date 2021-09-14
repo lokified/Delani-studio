@@ -95,8 +95,15 @@ $(document).ready(function () {
     $('.contacts form').submit(function(){
           let yourName =$('#mce-FNAME').val();
           let yourMessage = $('#message').val();
+          let yourEmail = $('#mce-EMAIL').val();
            if(yourMessage.length == 0){
                alert("please fill in your message");
+           }
+           else if(yourName.length == 0){
+               alert("please input your name");
+           }
+           else if(yourEmail.length == 0){
+               alert("please input your email");
            }
            else{
               alert( yourName+ " we have received your message. Thank you for reaching out to us. ");
