@@ -157,11 +157,15 @@ header{
     margin: 20px 10px;
     width: 360px;
 }
+#fields{
+    display: flex;
+    margin: 0 20%;
+}
 #message{
     width: 700px;
     margin-left: 50px;
 }
-#message::placeholder,#name::placeholder,#email::placeholder{
+#message::placeholder,#mce-FNAME::placeholder,#mce-EMAIL::placeholder{
     color: white;
     padding: 7px;
 }
