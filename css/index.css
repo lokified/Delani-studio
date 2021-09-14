@@ -319,3 +319,10 @@ header{
     }
     
 }
+ @media only screen and (max-width:1200px){
+    #fields{
+        display: block;
+        margin: 0 20%;
+    }
+}
+ 
