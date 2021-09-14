@@ -94,6 +94,13 @@ $(document).ready(function () {
     // shows alert on submit
     $('.contacts form').submit(function(){
           let yourName =$('#mce-FNAME').val();
-          alert( yourName+ " we have received your message. Thank you for reaching out to us. ");
+          let yourMessage = $('#message').val();
+           if(yourMessage.length == 0){
+               alert("please fill in your message");
+           }
+           else{
+              alert( yourName+ " we have received your message. Thank you for reaching out to us. ");
+           }
+          
     })
 });
